@@ -49,7 +49,7 @@ $views=1;
   }
   else{
     add_post_meta( $queried_object->ID, w3_get_mac(),$views);
-    $reading_times="You are reading this post for the first time"
+    $reading_times="You are reading this post for the first time<br>"
     return $reading_times.content;
   }
 }
